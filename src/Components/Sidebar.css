@@ -1,0 +1,39 @@
+.Sidebar {
+}
+
+.sidebarSection {
+    font-family: Arial, sans-serif;
+    width: 100%;
+    background-color: #1e293b;
+    border-right: 1px solid rgba(255, 255, 255, 0.317);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    height: 100vh;
+    z-index: 1;
+
+}
+
+.HeadtextSidebar {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.textSidebar {
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
+    border-radius: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.textSidebar:hover {
+    color: #885af0;
+}
